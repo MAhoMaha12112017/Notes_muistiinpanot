@@ -1,0 +1,8 @@
+POST http://localhost:3001/notes
+content-type: application/json
+
+{
+  "content": "Uusi REST clientin kautta",
+  "important": true,
+  "date": "Wed, 5th July 2018"
+}
